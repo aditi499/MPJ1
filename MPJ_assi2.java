@@ -33,7 +33,10 @@ public class Main {
 
         Student s1 = new Student("Ayush", 101, 88.5);
         Student s2 = new Student("Riya", 102, 92.0);
-
+        Student s3 = new Student("Harshita", 106, 94.0);
+        Student s4 = new Student("Aditi", 109, 91.8);
+        Student s5 = new Student("Aarya", 105, 97.8);
+        
         System.out.println("Student 1 Details:");
         s1.displayDetails();
         System.out.println("Grade: " + s1.calculateGrade());
@@ -41,5 +44,18 @@ public class Main {
         System.out.println("\nStudent 2 Details:");
         s2.displayDetails();
         System.out.println("Grade: " + s2.calculateGrade());
+
+        System.out.println("Student 3 Details:");
+        s3.displayDetails();
+        System.out.println("Grade: " + s3.calculateGrade());
+
+        System.out.println("Student 4 Details:");
+        s4.displayDetails();
+        System.out.println("Grade: " + s4.calculateGrade());
+
+        System.out.println("Student 5 Details:");
+        s5.displayDetails();
+        System.out.println("Grade: " + s5.calculateGrade());
     }
 }
+

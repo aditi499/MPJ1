@@ -35,7 +35,7 @@ public class Main {
     public static void main(String[] args) {
 
         FullTimeEmployee ft = new FullTimeEmployee(50000);
-        InternEmployee intern = new InternEmployee(20000);
+        InternEmployee intern = new InternEmployee(30000);
 
         System.out.println("Full Time Employee:");
         System.out.println("Before Hike:");
@@ -52,3 +52,4 @@ public class Main {
         intern.displaySalary();
     }
 }
+
